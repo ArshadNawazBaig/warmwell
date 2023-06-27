@@ -39,6 +39,12 @@
     ></script>
   </head>
   <body>
+    <!-- Loader -->
+    <div id="loader">
+      <div class="spinner-grow" style="width: 3rem; height: 3rem" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    </div>
     <!-- Hero section -->
     <section class="home-wrapper">
       <div class="home-slider">
@@ -1122,6 +1128,16 @@
     <script src="js/wow.min.js"></script>
     <script>
       new WOW().init();
+      document.onreadystatechange = function () {
+        if (document.readyState === 'complete') {
+          // When the document has completely loaded
+          // Hide the loader
+          setTimeout(() => {
+            document.getElementById('loader').style.display = 'none';
+            // Show the content
+          }, 3000);
+        }
+      };
     </script>
     <script type="text/javascript">
       $(document).ready(function () {
