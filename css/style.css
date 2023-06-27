@@ -9690,7 +9690,7 @@ footer .footer-bottom .social-links a:last-of-type {
   visibility: visible;
 }
 .home-slide-one {
-  background-image: url(/assets/img/slide1.jpg);
+  background-image: url(assets/img/slide1.jpg);
   visibility: visible;
   animation-name: zoomIn;
   display: none;
@@ -9698,7 +9698,7 @@ footer .footer-bottom .social-links a:last-of-type {
   background-size: cover;
 }
 .home-slide-two {
-  background-image: url('/assets/img/slide1.jpg');
+  background-image: url('assets/img/slide1.jpg');
   visibility: visible;
   animation-name: zoomIn;
   display: none;
