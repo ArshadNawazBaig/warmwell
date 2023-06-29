@@ -9753,9 +9753,37 @@ footer .footer-bottom .social-links a:last-of-type {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
+  position: fixed;
   height: 100vh;
   width: 100%;
   background: #fff;
-  z-index: 9;
+  z-index: 999999;
+}
+
+#loader .spinner-grow {
+  background: #5f2dee;
+}
+
+@media (max-width: 767px) {
+  .heading-one {
+    font-size: 35px;
+  }
+  .home__arrow {
+    display: none;
+  }
+  .hero-contents {
+    padding: 96px 0;
+  }
+}
+.navbar-nav .nav-link {
+  color: #333;
+  transition: 0.3s ease-in-out all;
+}
+.navbar-nav .nav-link:hover {
+  color: #5f2dee;
+}
+.navbar button {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
 }

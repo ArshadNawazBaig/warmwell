@@ -3,7 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <link
+      rel="icon"
+      type="image/png"
+      href="./assets/img/icons/fav.png"
+      sizes="32x32"
+    />
     <title>Warmwell || Tech Solutions</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <link
@@ -45,8 +50,62 @@
         <span class="visually-hidden">Loading...</span>
       </div>
     </div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-white fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/img/logo-light.svg" alt="main logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+          <!-- Font Awesome hamburger menu icon -->
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#one"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#five"
+                >Services</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#three"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#nine"
+                >Team</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#eleven"
+                >Contact</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#four"
+                >FAQs</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <!-- Hero section -->
-    <section class="home-wrapper">
+    <section id="one" class="home-wrapper">
       <div class="home-slider">
         <div class="home-slide-one">
           <div class="container">
@@ -60,12 +119,12 @@
                   <h6
                     class="wow animate__animated animate__slideInDown top__title"
                   >
-                    Quan Tech IT Systems
+                    Warmwell Systems
                   </h6>
                   <h1
                     class="fs-lg wow animate__animated animate__slideInRight heading-one"
                   >
-                    Strategic Technology Consulting Partners
+                    Inspiring sucess, solutions and buildning growth together
                   </h1>
                   <p
                     class="pe-lg-5 mb-4 wow animate__animated animate__slideInRight p-home"
@@ -96,7 +155,7 @@
                     data-animation-in="fadeInDown"
                     style="opacity: 1"
                   >
-                    Warmwell IT Systems
+                    Warmwell Systems
                   </h6>
                   <h1
                     class="fs-lg fadeInRight animated heading-one"
@@ -104,7 +163,7 @@
                     data-delay-in="0.3"
                     style="opacity: 1; animation-delay: 0.3s"
                   >
-                    Strategic Technology Consulting Partners
+                    Inspiring sucess, solutions and buildning growth together
                   </h1>
                   <p
                     class="pe-lg-5 mb-4 fadeInRight animated p-home"
@@ -137,7 +196,7 @@
       </div>
     </section>
     <!-- Section one -->
-    <section class="our-service-wrapper section-padding">
+    <section id="two" class="our-service-wrapper section-padding">
       <div class="container">
         <div class="col-12 col-xl-6 offset-xl-3 text-center">
           <div class="section-title">
@@ -152,7 +211,7 @@
                 <img src="assets/img/icons/solution.svg" alt="" />
               </div>
               <h4><a href="services-details.html">It Solutions</a></h4>
-              <p>Sale and buy are the central strategies of trade.</p>
+              <p>Accelerating Growth with Customized IT Solutions.</p>
               <a href="services-details.html" class="read-more-link"
                 >Read More</a
               >
@@ -163,8 +222,8 @@
               <div class="icon">
                 <img src="assets/img/icons/coding.svg" alt="" />
               </div>
-              <h4><a href="services-details.html">Development</a></h4>
-              <p>Develop amazing web and app experiences.</p>
+              <h4><a href="services-details.html">construction</a></h4>
+              <p>Elevating Construction Standards, Every Step of the Way.</p>
               <a href="services-details.html" class="read-more-link"
                 >Read More</a
               >
@@ -175,8 +234,8 @@
               <div class="icon">
                 <img src="assets/img/icons/ux-design.svg" alt="" />
               </div>
-              <h4><a href="services-details.html">Web Design</a></h4>
-              <p>Looking For Website Design Services? Browse.</p>
+              <h4><a href="services-details.html">Business</a></h4>
+              <p>Unlocking Business Potential through Innovative Solutions.</p>
               <a href="services-details.html" class="read-more-link"
                 >Read More</a
               >
@@ -188,7 +247,7 @@
                 <img src="assets/img/icons/database.svg" alt="" />
               </div>
               <h4><a href="services-details.html">Engineering</a></h4>
-              <p>A software engineer is a person applies.</p>
+              <p>Engineering Solutions for a Dynamic World.</p>
               <a href="services-details.html" class="read-more-link"
                 >Read More</a
               >
@@ -198,7 +257,7 @@
       </div>
     </section>
     <!-- Section two -->
-    <section class="about-wrapper section-padding pt-0">
+    <section id="three" class="about-wrapper section-padding pt-0">
       <div class="container">
         <div class="row">
           <div class="col-xl-6 col-12">
@@ -218,12 +277,13 @@
           <div class="col-xl-6 col-12 ps-xl-5">
             <div class="section-title">
               <span>25 Years of Experience</span>
-              <h2>Your Partner for Software Innovation</h2>
+              <h2>Your partners in business and IT innovation</h2>
               <p>
-                Warmwell is the partner of choice for many of the world’s
-                leading enterprises, SMEs and technology challengers. We help
-                businesses elevate their value through custom software
-                development, product design.
+                Welcome to our company, where possibilities meet solutions. With
+                a relentless commitment to excellence, we specialize in
+                providing innovative and comprehensive problem-solving services
+                to companies and organizations across diverse industries,
+                including transport, construction, health, and more.
               </p>
             </div>
 
@@ -249,7 +309,10 @@
       </div>
     </section>
     <!-- Section three -->
-    <section class="faq-wrapper left-bg-overlay section-padding bg-gradient">
+    <section
+      id="four"
+      class="faq-wrapper left-bg-overlay section-padding bg-gradient"
+    >
       <div class="shape-top"><img src="assets/img/top-shape.png" alt="" /></div>
       <div class="shape-bottom">
         <img src="assets/img/left-bottom-shape.png" alt="" />
@@ -263,8 +326,8 @@
           </div>
           <div class="col-xl-6 col-12 ps-xl-5">
             <div class="section-title">
-              <span>faq</span>
-              <h2>Frequntly Asked Any Questions</h2>
+              <!-- <span>faq</span> -->
+              <h2>Frequntly Asked Questions</h2>
             </div>
 
             <div class="faq-accordion">
@@ -278,7 +341,8 @@
                       data-bs-target="#faq1"
                       aria-controls="faq1"
                     >
-                      What Is IT Consulting?
+                      What sets your business, IT, engineering, and construction
+                      services apart from others in the market?
                     </button>
                   </h4>
                   <div
@@ -287,8 +351,16 @@
                     data-bs-parent="#accordion"
                   >
                     <div class="accordion-body">
-                      We help our clients succeed by creating brand, digital
-                      xperiences, and print materials.
+                      At Warmwell, we differentiate ourselves through our
+                      comprehensive range of services that span multiple
+                      domains. Our integrated approach allows us to provide
+                      end-to-end solutions, ensuring seamless coordination
+                      between business strategy, IT infrastructure, and
+                      engineering and construction projects. This holistic
+                      perspective sets us apart, enabling us to deliver
+                      innovative and tailored solutions that address our
+                      clients&#39; unique needs, enhance efficiency, and drive
+                      sustainable growth.
                     </div>
                   </div>
                 </div>
@@ -302,7 +374,8 @@
                       data-bs-target="#faq2"
                       aria-controls="faq2"
                     >
-                      Can I Get Internet in My Area ?
+                      How do you ensure quality and reliability in your
+                      engineering and construction projects?
                     </button>
                   </h4>
                   <div
@@ -311,8 +384,17 @@
                     data-bs-parent="#accordion"
                   >
                     <div class="accordion-body">
-                      We help our clients succeed by creating brand, digital
-                      xperiences, and print materials.
+                      Quality and reliability are our top priorities in every
+                      engineering and construction project we undertake. We
+                      achieve this by leveraging our experienced team of
+                      professionals, strict adherence to industry standards and
+                      regulations, and robust project management practices. From
+                      meticulous planning and design to rigorous quality control
+                      and regular inspections, we maintain a strong focus on
+                      delivering projects of the highest standard. Additionally,
+                      we partner with trusted suppliers and contractors,
+                      ensuring that only the best materials and resources are
+                      used in our projects.
                     </div>
                   </div>
                 </div>
@@ -326,7 +408,8 @@
                       data-bs-target="#faq3"
                       aria-controls="faq3"
                     >
-                      Software Development?
+                      How can your IT solutions help improve our business
+                      operations?
                     </button>
                   </h4>
                   <div
@@ -335,8 +418,17 @@
                     data-bs-parent="#accordion"
                   >
                     <div class="accordion-body">
-                      We help our clients succeed by creating brand, digital
-                      xperiences, and print materials.
+                      Our IT solutions are designed to optimize business
+                      operations and drive productivity. We offer a wide range
+                      of services, including IT consulting, infrastructure
+                      development, software implementation, cloud services, and
+                      cybersecurity solutions. By leveraging cutting-edge
+                      technologies and industry best practices, we help
+                      streamline workflows, enhance communication and
+                      collaboration, automate processes, and secure critical
+                      data. Our IT solutions empower businesses to become more
+                      agile, efficient, and competitive in the digital
+                      landscape.
                     </div>
                   </div>
                 </div>
@@ -350,7 +442,8 @@
                       data-bs-target="#faq4"
                       aria-controls="faq4"
                     >
-                      What is Business Development?
+                      What types of business improvements and consulting
+                      services do you provide?
                     </button>
                   </h4>
                   <div
@@ -359,8 +452,18 @@
                     data-bs-parent="#accordion"
                   >
                     <div class="accordion-body">
-                      We help our clients succeed by creating brand, digital
-                      xperiences, and print materials.
+                      Our business improvement and consulting services encompass
+                      a diverse range of areas. We offer strategic consulting,
+                      market research, performance management, process
+                      optimization, and competitor analysis, among others. Our
+                      team of experts works closely with clients to identify
+                      their pain points, understand their business objectives,
+                      and develop tailored solutions. Whether it&#39;s enhancing
+                      operational efficiency, expanding into new markets,
+                      implementing sustainable practices, or driving innovation,
+                      our business improvement services are designed to help
+                      businesses achieve their goals and stay ahead in
+                      today&#39;s dynamic business environment.
                     </div>
                   </div>
                 </div>
@@ -371,7 +474,7 @@
       </div>
     </section>
     <!-- Section four -->
-    <section class="best-services-wrapper section-padding">
+    <section id="five" class="best-services-wrapper section-padding">
       <div class="container">
         <div class="col-12 col-xl-6 offset-xl-3 text-center">
           <div class="section-title">
@@ -471,7 +574,7 @@
       </div>
     </section>
     <!-- Section five -->
-    <section class="project-carousel-wrapper pt-0 section-padding">
+    <section id="six" class="project-carousel-wrapper pt-0 section-padding">
       <div class="container">
         <div class="row align-center">
           <div class="col-md-8 col-xl-6 text-center text-md-start">
@@ -596,6 +699,7 @@
     </section>
     <!-- Section six -->
     <section
+      id="seven"
       class="video-cta-wrapper bg-cover section-padding"
       style="background-image: url('assets/img/video-cta-bg.jpeg')"
     >
@@ -611,12 +715,9 @@
                 ><i class="fas fa-play"></i
               ></a>
             </div>
-            <h1 class="text-white">
-              Preparing For Your Success Provide Best IT Solutions.
-            </h1>
+            <h1 class="text-white">Preparing for your sucess</h1>
             <p class="text-white">
-              Appropriate for your specific business, making it easy <br />
-              for you to have quality IT services.
+              Transforming Visions into Exceptional Realities
             </p>
             <a href="contact.html" class="theme-btn mt-5">Contact us</a>
           </div>
@@ -624,7 +725,7 @@
       </div>
     </section>
     <!-- Section seven -->
-    <section class="fun-counter-wrapper text-white">
+    <section id="eight" class="fun-counter-wrapper text-white">
       <div class="container">
         <div class="row ps-md-5 pe-md-5">
           <div class="col-lg-6">
@@ -661,7 +762,7 @@
       </div>
     </section>
     <!-- Section eight -->
-    <section class="testimonial-carousel-wrapper section-padding">
+    <!-- <section class="testimonial-carousel-wrapper section-padding">
       <div class="container">
         <div class="col-12 col-xl-8 offset-xl-2 text-center">
           <div class="section-title">
@@ -761,9 +862,9 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- Section nine -->
-    <section class="team-experts-wrapper section-padding section-bg">
+    <section id="nine" class="team-experts-wrapper section-padding section-bg">
       <div class="container">
         <div
           class="col-12 col-xl-6 offset-xl-3 col-md-8 offset-md-2 text-center"
@@ -783,12 +884,12 @@
               <div class="member-info">
                 <h4><a href="team-details.html">Asish Patil</a></h4>
                 <p>Founder &amp; Ceo</p>
-                <div class="social-links">
+                <!-- <div class="social-links">
                   <a href="#"><i class="fab fa-facebook-f"></i></a>
                   <a href="#"><i class="fab fa-twitter"></i></a>
                   <a href="#"><i class="fab fa-instagram"></i></a>
                   <a href="#"><i class="fab fa-linkedin"></i></a>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -800,12 +901,12 @@
               <div class="member-info">
                 <h4><a href="team-details.html">D. Maria Poddar</a></h4>
                 <p>Designer</p>
-                <div class="social-links">
+                <!-- <div class="social-links">
                   <a href="#"><i class="fab fa-facebook-f"></i></a>
                   <a href="#"><i class="fab fa-twitter"></i></a>
                   <a href="#"><i class="fab fa-instagram"></i></a>
                   <a href="#"><i class="fab fa-linkedin"></i></a>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -817,12 +918,12 @@
               <div class="member-info">
                 <h4><a href="team-details.html">Salman Ahmed</a></h4>
                 <p>Developer</p>
-                <div class="social-links">
+                <!-- <div class="social-links">
                   <a href="#"><i class="fab fa-facebook-f"></i></a>
                   <a href="#"><i class="fab fa-twitter"></i></a>
                   <a href="#"><i class="fab fa-instagram"></i></a>
                   <a href="#"><i class="fab fa-linkedin"></i></a>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -834,12 +935,12 @@
               <div class="member-info">
                 <h4><a href="team-details.html">RS Rahul</a></h4>
                 <p>Marketer</p>
-                <div class="social-links">
+                <!-- <div class="social-links">
                   <a href="#"><i class="fab fa-facebook-f"></i></a>
                   <a href="#"><i class="fab fa-twitter"></i></a>
                   <a href="#"><i class="fab fa-instagram"></i></a>
                   <a href="#"><i class="fab fa-linkedin"></i></a>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -847,7 +948,7 @@
       </div>
     </section>
     <!-- Section ten -->
-    <section class="our-news-section section-padding">
+    <section id="ten" class="our-news-section section-padding">
       <div class="container">
         <div class="row">
           <div class="col-12 text-center">
@@ -959,7 +1060,7 @@
       </div>
     </section>
     <!-- Section eleven -->
-    <section class="cta-banner-wrapper">
+    <section id="eleven" class="cta-banner-wrapper">
       <div class="container">
         <div
           class="cta-banner-box section-padding bg-cover"
@@ -995,7 +1096,7 @@
             <div class="col-sm-6 col-xl-3">
               <div class="about-quantech pe-md-5 pe-xl-0">
                 <a href="index.html">
-                  <img src="assets/img/logo-footer.png" alt="warmwell" />
+                  <img src="assets/img/logo-dark.svg" alt="warmwell" />
                 </a>
                 <p>
                   Warmwell is IT Solutions &amp; Technology business, then you
@@ -1056,7 +1157,7 @@
                       <i class="fas fa-phone"></i>
                     </div>
                     <div class="contact-info">
-                      <span>+91-768728658</span>
+                      <span>+46703649499</span>
                     </div>
                   </div>
                   <div class="single-contact-info">
@@ -1064,12 +1165,12 @@
                       <i class="fas fa-envelope"></i>
                     </div>
                     <div class="contact-info">
-                      <span>info@example.com</span>
+                      <span>info@warmwelltech.com </span>
                     </div>
                   </div>
                 </div>
 
-                <div class="newsletter_widget">
+                <!-- <div class="newsletter_widget">
                   <div class="newsletter_box">
                     <form action="#">
                       <input
@@ -1082,7 +1183,7 @@
                       </button>
                     </form>
                   </div>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
